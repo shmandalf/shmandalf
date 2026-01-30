@@ -11,6 +11,7 @@
 - **Legacy System Migration**: PHP 5.x → 8.x, zero downtime strategies
 - **High-load Optimization**: API performance, caching architectures, database tuning
 - **System Architecture**: Microservices, monolith decomposition, distributed systems
+- **Engineering Efficiency**: AI-assisted development workflow for rapid prototyping and boilerplate, doubling development speed on routine tasks while maintaining full architectural control and code ownership
 - **DevOps & Infrastructure**: Docker, CI/CD, monitoring, scaling solutions
 
 ### **Tech Stack**
