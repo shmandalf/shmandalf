@@ -32,10 +32,6 @@
 *Distributed locks & queues with Laravel 12*
 `Laravel 12` · `Redis Locks` · `RabbitMQ` · `WebSocket` · **Embedded demo video**
 
-🕵️ **[Webhook Debugger](https://github.com/shmandalf/webhook-debugger)**
-*Real-time HTTP inspector in Go*
-`Go` · `BadgerDB` · `Docker` · **Live demo:** [webhooks.l3373.xyz](https://webhooks.l3373.xyz)
-
 ---
 
 ## 🏗️ Real-World Experience
