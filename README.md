@@ -13,6 +13,8 @@
 - **System Architecture**: Microservices, monolith decomposition, distributed systems
 - **Engineering Efficiency**: AI-assisted development workflow for rapid prototyping and boilerplate, doubling development speed on routine tasks while maintaining full architectural control and code ownership
 - **DevOps & Infrastructure**: Docker, CI/CD, monitoring, scaling solutions
+- **Developer Experience (DX)**: Optimized CLI environment using [Fish Shell](https://fishshell.com) with autosuggestions and custom aliases for rapid Git and Docker orchestration.
+
 
 ### **Tech Stack**
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
