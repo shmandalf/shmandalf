@@ -9,7 +9,7 @@
 
 ## АКТУАЛЬНЫЕ ПРОЕКТЫ (PoC)
 
-### ⊞ [Fast.AF — Fast Atomic Flow](fast-atomic-flow)
+### ⊞ [Fast.AF — Fast Atomic Flow](https://github.com/shmandalf/fast-atomic-flow)
 **Высокопроизводительный движок оркестрации задач на PHP 8.4 и Swoole 6.0.**
 - **Движок:** Корутины, Shared Memory (Swoole Table/Atomic), кастомные семафоры.
 - **Архитектура:** Паттерн Worker-Scoped Container для строгой изоляции процессов.
