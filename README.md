@@ -1,104 +1,63 @@
-# 👨‍💻 Dmitrii Shmanatov
+# ≡ SENIOR SYSTEMS ARCHITECT
+### PHP 8.4 (Swoole 6) · Go · Асинхронный Backend · Рефакторинг
 
-**Senior PHP Architect** · 25+ years of experience
-📍 Remote from Rural Russia · 🕐 Available for remote opportunities
-
----
-
-## 🛠️ Technical Expertise
-
-### **Core Competencies**
-- **Legacy System Migration**: PHP 5.x → 8.x, zero downtime strategies
-- **High-load Optimization**: API performance, caching architectures, database tuning
-- **System Architecture**: Microservices, monolith decomposition, distributed systems
-- **Engineering Efficiency**: AI-assisted development workflow for rapid prototyping and boilerplate, doubling development speed on routine tasks while maintaining full architectural control and code ownership
-- **DevOps & Infrastructure**: Docker, CI/CD, monitoring, scaling solutions
-- **Developer Experience (DX)**: Optimized CLI environment using [Fish Shell](https://fishshell.com) with autosuggestions and custom aliases for rapid Git and Docker orchestration.
-
-
-### **Tech Stack**
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### **Featured Projects**
-
-🔮 **[Excelentor](https://github.com/shmandalf/excelentor)**
-*Declarative spreadsheet-to-objects mapping*
-`PHP 8` · `Packagist` · `Declarative Syntax` · **Live code examples**
-
-🕵️ **[Webhook Debugger](https://github.com/shmandalf/webhook-debugger)**
-*Real-time HTTP inspector in Go*
-`Go` · `BadgerDB` · `Docker` · **Live demo:** [webhooks.l3373.xyz](https://webhooks.l3373.xyz)
+- **ФОКУС:** Распределенные системы, IPC и оптимизация производительности.
+- **ПРИОРИТЕТ:** Долгосрочное сотрудничество (10+ лет) в стабильной продуктовой команде.
+- **ЛОКАЦИЯ:** Удаленная работа / Среда для глубокой концентрации (Deep Work).
 
 ---
 
-## 🏗️ Real-World Experience
-*From legacy migrations to performance firefighting*
+## АКТУАЛЬНЫЕ ПРОЕКТЫ (PoC)
 
-### **High-load System Work**
-- Optimized payment processing systems handling thousands of transactions
-- Implemented caching solutions that reduced server costs
-- Improved API reliability through better error handling and retry logic
+### ⊞ [Fast.AF — Fast Atomic Flow](fast-atomic-flow)
+**Высокопроизводительный движок оркестрации задач на PHP 8.4 и Swoole 6.0.**
+- **Движок:** Корутины, Shared Memory (Swoole Table/Atomic), кастомные семафоры.
+- **Архитектура:** Паттерн Worker-Scoped Container для строгой изоляции процессов.
+- **Live Demo:** [https://fast.af.l3373.xyz](https://fast.af.l3373.xyz) — Real-time телеметрия и HUD.
 
-### **Legacy Code Migration**
-- Successfully migrated multiple projects from PHP 5.x/7.x to modern versions
-- Maintained system stability during complex refactoring
-- Modernized codebases while training teams on new patterns
-
-### **Architecture & DevOps**
-- Contributed to microservice decomposition efforts
-- Improved deployment processes with Docker and CI/CD
-- Set up monitoring that actually helped prevent outages
-
-> **Note:** Exact numbers vary by project, but the pattern remains:
-> identify bottlenecks → implement solutions → measure improvements → repeat.
+### ⊞ [Excelentor](https://github.com/shmandalf/excelentor)
+**Библиотека декларативного маппинга таблиц (Excel/CSV) в PHP-объекты.**
+- **Стек:** PHP 8.1 Attributes, строгая типизация, DTO Hydration.
+- **Статус:** Опубликовано на Packagist. Фокус на DX и целостности данных.
 
 ---
 
-## 🌾 Remote Work Philosophy
+## ТЕХНОЛОГИЧЕСКИЙ СТЕК
 
-### **Why Rural Russia?**
-```text
-Working from the countryside provides:
-• Zero office distractions → Deep focus
-• Connection with nature → Mental clarity
-• Self-sufficiency mindset → Problem-solving skills
-• Stable internet → Reliable connectivity
-```
+`PHP 8.4 (Swoole 6 / Coroutines)` `Go (Golang)` `Python 3 (FastAPI)` `Laravel` `MySQL` `Postgres` `Clickhouse` `Redis` `Manticore Search` `Kafka` `RabbitMQ` `Docker` `Systemd` `CI/CD` `PHPUnit`
 
-### Daily Rhythm
-| Time  | Silicon Valley       | Rural Russia              |
-|-------|----------------------|---------------------------|
-| 8:00  | Standup meeting      | Rooster standup           |
-| 9:00  | Coffee from barista  | Coffee from samovar       |
-| 10:00 | Sprint planning      | Planning firewood stock   |
-| 12:00 | Lunch at cafeteria   | Lunch from own garden     |
-| 14:00 | Code review          | Code review with cat      |
-| 16:00 | Team retrospective   | River retrospective       |
-| 18:00 | Traffic jam          | Sunset viewing            |
-| 20:00 | Netflix              | Chasing away wolves     |
+---
 
-<small>Schedule may vary depending on weather, internet connectivity, and rooster accuracy. All times approximate.</small>
+## ▌ ИНЖЕНЕРНАЯ ЭКСПЕРТИЗА
 
-╰→ **Result: 100% focus on architecture and high-quality code delivery.**
+### ⚙ Системное программирование и High-load
+- **Управление конкурентностью:** Работа с примитивами разделяемой памяти, атомными счетчиками и IPC (Unix Sockets/Pipes).
+- **Оптимизация производительности:** Глубокий тюнинг SQL (EXPLAIN/Indexing), ETL-пайплайны в ClickHouse и стратегии буферизации через Redis.
+- **Observability:** Создание кастомных инструментов мониторинга для анализа трафика в реальном времени.
 
-## 📫 Let's Connect
+### 🏗 Эволюция Legacy (Refactoring Love)
+- **Архитектура:** Декомпозиция «God Objects» в типизированные DTO, сервисы и трейты.
+- **Модернизация:** Миграция систем с PHP 5.x до 8.x с использованием Quality Gates (PHPStan/Rector) без остановки бизнеса.
+- **Декларативная логика:** Использование интерфейсов `Responsable` и хелперов `throw_if / unless` для создания линейного, читаемого кода.
 
-| Contact | Details |
-|---------|---------|
-| 📧 Job offers | [`hire@l3373.xyz`](mailto:hire@l3373.xyz) |
-| 💻 GitHub mail | [`ruralsenior@l3373.xyz`](mailto:ruralsenior@l3373.xyz) |
-| 🌐 Website | [l3373.xyz](https://l3373.xyz) |
-| 📱 Telegram | [@l3373](https://t.me/l3373) |
+---
 
-## 🚀 Open To
-- **Senior/Lead PHP** roles (remote)
-- **Legacy system** modernization projects
-- **Performance optimization** challenges
-- **Architecture design** consulting
+## REMOTE DEEP-WORK
 
-> *Have a complex system that needs untangling? Let's talk.*
+Работа в удаленной локации обеспечивает среду для глубокой концентрации (Deep Work) над сложными архитектурными задачами.
+
+- **Связь:** Стабильный канал с низким latency.
+- **Фокус:** Отсутствие офисных факторов, ориентация на результат и качество кода.
+- **Ответственность:** Полная автономность и самодисциплина.
+
+---
+
+## КОНТАКТЫ
+
+| КАНАЛ | ДЕТАЛИ |
+| :--- | :--- |
+| **Имя** | Дмитрий Шманатов |
+| **Web** | [L3373.XYZ](https://l3373.xyz) |
+| **Email** | [hire@l3373.xyz](mailto:hire@l3373.xyz) |
+| **Telegram** | [@l3373](https://t.me/l3373) |
+| **Статус** | **Lead / Architect (Remote)** |
